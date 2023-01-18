@@ -3,14 +3,10 @@
     box-shadow: inset 0 -120px var(--cor-0);
 }
 
-.introduction-conteiner {
+.introduction {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px 40px;
-    box-sizing: border-box;
-    max-width: 1200px;    
-    padding: 0 20px;
-    margin: 0 auto;
 }
 
 .introduction-content {
@@ -22,7 +18,7 @@
     margin-bottom: 32px;
 }
 
-.introduction-conteiner img {
+.introduction img {
     height: 100%;
     object-fit: cover;
 }
@@ -39,7 +35,7 @@
         box-shadow: inset 0 -60px var(--cor-0);
     }
     
-    .introduction-conteiner {
+    .introduction {
         grid-template-columns: 1fr;
         gap: 32px;
     }
@@ -48,11 +44,11 @@
         padding-bottom: 0px; 
     }
 
-    .introduction-conteiner h1 {
+    .introduction h1 {
         margin-bottom: 16px;
     }
 
-    .introduction-conteiner img {
+    .introduction img {
         height: 300px;
         width: 100%;
     }

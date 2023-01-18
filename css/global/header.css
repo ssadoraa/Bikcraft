@@ -2,15 +2,14 @@
     background: var(--cor-12);
 }
 
-.header-container {
+.header {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    max-width: 1160px;
-    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom  : 20px;
 }
 
 .header-menu {
