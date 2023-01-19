@@ -17,3 +17,7 @@
 @import '/css/home/partners.css';
 @import '/css/home/testimony.css';
 @import '/css/safes/safe.css';
+
+/* Página de termos */
+@import '/css/terms/terms.css';
+
