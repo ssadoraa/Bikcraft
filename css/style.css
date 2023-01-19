@@ -24,3 +24,7 @@
 /* Página de Bicicletas */
 @import '/css/bikes/bikes.css';
 
+/* Página de Seguros */
+@import '/css/safes/benifits.css';
+@import '/css/safes/questions.css';
+

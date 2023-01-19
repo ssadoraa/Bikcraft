@@ -1,0 +1,38 @@
+.benifits-bg {
+    background: var(--cor-12);
+}
+
+.benifits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.benifits h2 {
+    margin-bottom: 60px;
+}
+
+.benifits ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    gap: 40px 80px;
+}
+
+.benifits ul img,
+.benifits ul h3 {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+    .benifits {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .benifits h2 {
+        margin-bottom: 40px;
+    }
+
+    .benifits ul {
+        gap: 20px;
+    }
+}
