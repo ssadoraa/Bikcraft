@@ -3,8 +3,9 @@
 @import '/css/utilities/typography.css';
 @import '/css/utilities/colors.css';
 
-/* Estilo do header */
+/* Estilo do header e do footer, presente em todas as páginas */
 @import '/css/global/header.css';
+@import '/css/global/footer.css';
 
 /* Utilitários */
 @import '/css/utilities/components.css';
