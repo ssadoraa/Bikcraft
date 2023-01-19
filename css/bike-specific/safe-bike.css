@@ -1,0 +1,46 @@
+.safe-bike-bg {
+    background: var(--cor-11);
+    box-shadow: inset 0 120px var(--cor-0), inset 0 -80px var(--cor-12);
+}
+
+.safe-bike {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.safe-bike-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.safe-bike-content {
+    padding-top: 180px;
+    padding-bottom: 180px;
+
+}
+
+.safe-bike-content h2{
+    margin-bottom: 32px;
+}
+
+.safe-bike-content p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .safe-bike-bg {
+        box-shadow: initial;
+    }
+
+    .safe-bike {
+        grid-template-columns: 1fr;
+    }
+
+    .safe-bike-content {
+        grid-row: 1;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+}

@@ -28,3 +28,6 @@
 @import '/css/safes/benifits.css';
 @import '/css/safes/questions.css';
 
+/* Página de Informações Específicas da Bicicleta */
+@import '/css/bike-specific/bike.css';
+@import '/css/bike-specific/safe-bike.css';

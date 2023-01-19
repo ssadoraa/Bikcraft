@@ -1,8 +1,8 @@
-.bike-bg {
+.bikes-bg {
     background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
 }
 
-.bike {
+.bikes {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -10,15 +10,15 @@
     padding-bottom: 60px;
 }
 
-.bike-image {
+.bikes-image {
     display: grid;
 }
 
-.bike-image img {
+.bikes-image img {
     grid-area: 1/1;
 }
 
-.bike-image span{
+.bikes-image span{
     background: var(--cor-12);
     display: inline-block;
     padding: 8px 16px 8px 8px;
@@ -28,22 +28,22 @@
     border-radius: 4px 0 0 4px;
 }
 
-.bike-content {
+.bikes-content {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: start;
 }
 
-.bike-content h2,
-.bike-content p {
+.bikes-content h2,
+.bikes-content p {
     grid-column: 1/-1;
 }
 
-.bike-content h2 {
+.bikes-content h2 {
     margin-bottom: 20px;
 }
 
-.bike-content h2::before {
+.bikes-content h2::before {
     content: "";
     display: block;
     height: 8px;
@@ -52,35 +52,35 @@
     margin-bottom: 8px;
 }
 
-.bike-content p{
+.bikes-content p{
     margin-bottom: 32px;
 }
 
-.bike-content ul {
+.bikes-content ul {
     display: grid;
     gap: 16px;
 }
 
-.bike-content li {
+.bikes-content li {
     display: flex;
     align-items: center;
 }
 
-.bike-content li img {
+.bikes-content li img {
     width: 24px;
     margin-right: 8px;
 }
 
-.bike-content a {
+.bikes-content a {
     align-self: end;
 }
 
 @media(max-width: 800px){
-    .bike-bg {
+    .bikes-bg {
         background: var(--cor-11);
     }
 
-    .bike {
+    .bikes {
         grid-template-columns: 1fr;
         gap: 20px;
         padding-top: 40px;
@@ -89,17 +89,17 @@
 }
 
 @media(max-width: 600px){
-    .bike-content {
+    .bikes-content {
         grid-template-columns: 1fr;
     }
 
-    .bike-content ul {
+    .bikes-content ul {
         grid-template-columns: 1fr 1fr;
         margin-bottom: 32px;
         font-size: 1rem;
     }
 
-    .bike-content a {
+    .bikes-content a {
         place-self: start;
     }
 }
