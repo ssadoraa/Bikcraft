@@ -36,3 +36,6 @@
 /* Página de Informações de Contato */
 @import '/css/contact/contact.css';
 @import '/css/contact/stores.css';
+
+/* Página de orçamento de bikcraft ou seguro */
+@import '/css/budget/budget.css';

@@ -4,7 +4,7 @@
 
 .contact {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 5fr 7fr;
 }
 
 .contact-dados,
@@ -14,13 +14,14 @@
 }
 
 .contact-dados {
-    background: var(--cor-12);
+    background: var(--cor-12) url("/img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
     border-radius: 4px 0 0 4px;
 }
 
 .contact-form {
-    background: var(--cor-0);
+    background: var(--cor-0) url("/img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
     border-radius: 0 4px 4px 0;
+    
 }
 
 .contact-dados h2 {
@@ -85,6 +86,7 @@
 
     .contact-dados {
         border-radius: 4px 4px 0 0;
+        background: var(--cor-12);
     }
     
     .contact-form {
