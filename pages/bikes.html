@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
 </head>
 
 <body class="bikes-full-list">
@@ -38,7 +41,7 @@
             </div>
         </div>
 
-        <div class="bikes container">
+        <div class="bikes container fadeInLeft" data-anime="200">
             <div class="bikes-image">
                 <img src="../img/bicicletas/nimbus.jpg" width="1120" height="680" alt="Bicicleta Nimbus Stark">
                 <span class="font-2-m cor-0">R$ 4999</span>
@@ -68,7 +71,7 @@
             </div>
         </div>
 
-        <div class="bikes-bg">
+        <div class="bikes-bg fadeInRight" data-anime="200">
             <div class="bikes container">
                 <div class="bikes-image">
                     <img src="../img/bicicletas/magic.jpg" width="1120" height="680" alt="Bicicleta Magic Might">
@@ -100,7 +103,7 @@
             </div>
         </div>
 
-        <div class="bikes container">
+        <div class="bikes container fadeInLeft" data-anime="200">
             <div class="bikes-image">
                 <img src="../img/bicicletas/nebula.jpg" width="1120" height="680" alt="Bicicleta Nebula Cosmic">
                 <span class="font-2-m cor-0">R$ 3999</span>
@@ -166,7 +169,8 @@
         </div>
     </footer>
 
-    <script src="/js/script.js"></script>
+    <script src="../js/plugins/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

@@ -2,6 +2,7 @@
 @import '../css/global/global.css';
 @import '../css/utilities/typography.css';
 @import '../css/utilities/colors.css';
+@import '../css/utilities/animation.css';
 
 /* Estilo do header e do footer, presente em todas as páginas */
 @import '../css/global/header.css';

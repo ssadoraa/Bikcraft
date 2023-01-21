@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
 </head>
 
 <body id="safes">
@@ -37,7 +40,7 @@
             </div>
         </div>
 
-        <div class="safe container">
+        <div class="safe container fadeInLeft" data-anime="200">
             <div class="safe-iten">
                 <h3 class="font-1-xl cor-6">PRATA</h3>
                 <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-6">mensal</span></span>
@@ -49,7 +52,7 @@
                 </ul>
                 <a class="button second" href="./budget.html?type=safe&product=silver">Inscreva-se</a>
             </div>
-            <div class="safe-iten">
+            <div class="safe-iten fadeInRight" data-anime="400">
                 <h3 class="font-1-xl cor-p1">OURO</h3>
                 <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span>
                 <ul class="font-2-m cor-0">
@@ -184,7 +187,8 @@
         </div>
     </footer>
 
-    <script src="/js/script.js"></script>
+    <script src="../js/plugins/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
