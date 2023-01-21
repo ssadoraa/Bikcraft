@@ -1,42 +1,42 @@
 /* Estilos usados em todo o site */
-@import '../css/global/global.css';
-@import '../css/utilities/typography.css';
-@import '../css/utilities/colors.css';
-@import '../css/utilities/animation.css';
+@import './global/global.css';
+@import './utilities/typography.css';
+@import './utilities/colors.css';
+@import './utilities/animation.css';
 
 /* Estilo do header e do footer, presente em todas as páginas */
-@import '../css/global/header.css';
-@import '../css/global/footer.css';
+@import './global/header.css';
+@import './global/footer.css';
 
 /* Utilitários */
-@import '../css/utilities/components.css';
-@import '../css/utilities/form.css';
+@import './utilities/components.css';
+@import './utilities/form.css';
 
 /* Página home */
-@import '../css/home/introduction.css';
-@import '../css/bikes/bikes-list.css';
-@import '../css/home/tecnologys.css';
-@import '../css/home/partners.css';
-@import '../css/home/testimony.css';
-@import '../css/safes/safe.css';
+@import './home/introduction.css';
+@import './bikes/bikes-list.css';
+@import './home/tecnologys.css';
+@import './home/partners.css';
+@import './home/testimony.css';
+@import './safes/safe.css';
 
 /* Página de termos */
-@import '../css/terms/terms.css';
+@import './terms/terms.css';
 
 /* Página de Bicicletas */
-@import '../css/bikes/bikes.css';
+@import './bikes/bikes.css';
 
 /* Página de Seguros */
-@import '../css/safes/benifits.css';
-@import '../css/safes/questions.css';
+@import './safes/benifits.css';
+@import './safes/questions.css';
 
 /* Página de Informações Específicas da Bicicleta */
-@import '../css/bike-specific/bike.css';
-@import '../css/bike-specific/safe-bike.css';
+@import './bike-specific/bike.css';
+@import './bike-specific/safe-bike.css';
 
 /* Página de Informações de Contato */
-@import '../css/contact/contact.css';
-@import '../css/contact/stores.css';
+@import './contact/contact.css';
+@import './contact/stores.css';
 
 /* Página de orçamento de bikcraft ou seguro */
-@import '../css/budget/budget.css';
+@import './budget/budget.css';

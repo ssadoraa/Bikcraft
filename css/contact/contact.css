@@ -14,12 +14,12 @@
 }
 
 .contact-dados {
-    background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
+    background: var(--cor-12) url("../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
     border-radius: 4px 0 0 4px;
 }
 
 .contact-form {
-    background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
+    background: var(--cor-0) url("../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
     border-radius: 0 4px 4px 0;
     
 }
@@ -30,7 +30,7 @@
 
 .contact-address {
     margin-bottom: 32px;
-    background: url("../../img/icones/local.svg") no-repeat 0px 2px;
+    background: url("../img/icones/local.svg") no-repeat 0px 2px;
     padding-left: 28px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .contact-kinds a:first-child {
-    background: url("../../img/icones/email.svg") no-repeat 0px 2px;
+    background: url("../img/icones/email.svg") no-repeat 0px 2px;
     padding-left: 28px;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .contact-kinds a:nth-child(3) {
-    background: url("../../img/icones/telefone.svg")
+    background: url("../img/icones/telefone.svg")
     no-repeat 0px 2px;
     margin-bottom: 60px;
 }

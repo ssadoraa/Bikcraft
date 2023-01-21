@@ -44,7 +44,7 @@
     display: inline-block;
     height: 10px;
     width: 18px;
-    background: url("../../img/icones/seta.svg");
+    background: url("../img/icones/seta.svg");
     margin-left: 12px;
     transition: transform 0.2s;
 }
@@ -88,7 +88,7 @@
 }
 
 .title {
-    background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+    background: url("../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .title p {
